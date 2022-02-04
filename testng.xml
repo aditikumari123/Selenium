@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/DELL/testing">
+        <classes>
+            <class name="selenium_auto.Demo_test">
+                <methods>
+                    <include name="open"></include>
+                    <include name="open2"></include>
+                </methods>
+            </class>
+            <class name="selenium_auto.selverify"></class>
+            <class name="selenium_auto.Demo_test2"></class>
+        </classes>
+    </test>
+</suite>
